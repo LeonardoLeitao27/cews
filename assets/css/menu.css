@@ -1,0 +1,9 @@
+.menu {
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.info {
+    display: none;
+}
