@@ -5,6 +5,8 @@
 
 body{
   background-color: #c0d1c2;
+  margin: 0px;
+  padding: 0px;
 }
 .sky{
   z-index: -1;
@@ -29,7 +31,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 150px;
   z-index: 1000;
 }
 
@@ -38,8 +40,18 @@ body{
 }
 
 .logo-ws{
-  max-width: 9%;
+  max-width: 6%;
   border-radius: 90px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  z-index: 10;
+}
+
+.logo-ws{
+  text-align: center;
 }
 
 nav{
@@ -50,6 +62,22 @@ nav{
 
 #salas{
   display: none;
+}
+
+.parentDiv {
+  position: absolute;
+  width: 100%;
+  background-color: #182224;
+  color: white;
+}
+
+.nav {
+  text-align: center;
+}
+
+ul li{
+  display: inline-block;
+  padding: 0 5px;
 }
 
 @media only screen and (max-width: 715px) {
