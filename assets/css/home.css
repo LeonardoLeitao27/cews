@@ -29,11 +29,26 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 350px;
+  padding: 50px;
   z-index: 1000;
 }
 
 .sky{ 
+  display: none;
+}
+
+.logo-ws{
+  max-width: 9%;
+  border-radius: 90px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#salas{
   display: none;
 }
 
