@@ -1,0 +1,7 @@
+.sky{
+    z-index: -1;
+}
+
+.predio{
+    z-index: 1000;
+}
